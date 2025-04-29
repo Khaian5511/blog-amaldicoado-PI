@@ -1,0 +1,80 @@
+Blog Amaldiçoado: 
+
+1	Explicar o motivo da existência do blog 
+
+2	Explicar a base do universo de jujutsu,junto da sinopse do Anime 
+	Mostrar os Volumes do Manga  
+
+3	Mostrar a popularidade do anime (os banners para o final, O halloween e outras 	coisas) 
+
+4	Sobre o Autor de Jujutsu, outras obras que ele fez e participou 
+
+5	Apresentar um pequeno carrossel com algumas imagens mais marcantes do 	anime	Ex: (TojixGojo,mahitoxitadori,gojoxmaldicoes e parte do manga gojo e 	sukuna) 
+
+6	Curiosidades do próprio anime e mostrar alguns projetos de fãs do anime 
+
+7	mostrar diferenças da adaptação de mangá para anime, estúdios que também 	fizeram a animação 
+
+8	Fazer uma página com diversos personagens importantes para a obra com sua 	 descrição breve sobre eles e suas habilidades 
+
+Features Engraçadas: 
+
+X	Calculadora de Energia Amaldiçoada e “”RPG”” igual a calculadora de batalhas 	do luffy  
+
+	(adicionando já a quantidade de energia da calculadora /*armazenada num 	vetor*/, gerador de número aleatório de 1 em 10 caso seja ímpar será um Black 	Flash!!, se der um possível seletor de inimigos /*falar com a giu na segunda q 	vem*/ 
+
+Y	Api de música com OPs,ENDs e músicas que tocaram em meio a batalhas e etc 
+
+Z	Pequeno quiz composto por 10 perguntas sobre o mangá/anime 
+
+  	 
+
+Telas: 
+
+Login 
+
+Cadastro 
+
+Página Inicial (contexto, contexto JJK, popularidade) 
+
+Curiosidades(curios,projetos,marcantes) 
+
+Adaptação(Autor,estudios,adaptação) 
+
+Enciclopédia Amaldiçoada(personagens, descrição, imagens) 
+
+“”RPG”” 
+
+ 
+
+Tabelas 
+
+Usuários 
+
+Id 
+
+Email 
+
+Senha 
+
+Nome completo 
+
+Dt_nascimento 
+
+ 
+
+Dados_rpg 
+
+Id 
+
+Energia_user 
+
+Qtd_BlackFlash 
+
+Batalhas_vencidas 
+
+Batalhas_perdidas 
+
+fkUsuario 
+
+ 
