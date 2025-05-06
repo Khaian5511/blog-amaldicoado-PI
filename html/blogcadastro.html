@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro - Blog Amaldiçoado</title>
+    <link rel="stylesheet" href="C:\Users\Khako\Documents\blogamaldiçoado\estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro</h1>
+    </header>
+
+    <section id="auth-section">
+        <form id="cadastro-form" onsubmit="validarCadastro()">
+            <label>Email:</label><br>
+            <input type="email" id="email" required><br><br>
+
+            <label>Senha:</label><br>
+            <input type="password" id="senha" required><br><br>
+
+            <label>Confirmar Senha:</label><br>
+            <input type="password" id="confirmarSenha" required><br><br>
+
+            <button type="submit">Cadastrar</button><br><br>
+            <a href="C:\Users\Khako\Documents\blogamaldiçoado\bloglogin.html">Já tem conta? Login</a><br>
+            <a href="C:\Users\Khako\Documents\blogamaldiçoado\blogfrontpage.html">Voltar ao início</a>
+        </form>
+    </section>
+
+    <script>
+        function validarCadastro() {
+            var email = document.getElementById('email').value;
+            var senha = document.getElementById('senha').value;
+            var confirmarSenha = document.getElementById('confirmarSenha').value;
+
+            if (email.indexOf('@') === -1 || email.indexOf('.') === -1) {
+                alert('Email inválido!');
+            } else if (senha !== confirmarSenha) {
+                alert('As senhas não coincidem!');
+            } else {
+                alert('Cadastro realizado com sucesso!');
+            }
+
+            event.preventDefault();
+        }
+    </script>
+</body>
+</html>

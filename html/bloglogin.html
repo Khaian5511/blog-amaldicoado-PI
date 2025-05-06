@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Blog Amaldiçoado</title>
+    <link rel="stylesheet" href="C:\Users\Khako\Documents\blogamaldiçoado\estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Login</h1>
+    </header>
+
+    <section id="auth-section">
+        <form id="login-form" onsubmit="validarLogin()">
+            <label>Email:</label><br>
+            <input type="email" id="email" required><br><br>
+
+            <label>Senha:</label><br>
+            <input type="password" id="senha" required><br><br>
+
+            <button type="submit">Entrar</button><br><br>
+            <a href="C:\Users\Khako\Documents\blogamaldiçoado\blogcadastro.html">Não tem conta? Cadastre-se</a><br>
+            <a href="C:\Users\Khako\Documents\blogamaldiçoado\blogfrontpage.html">Voltar ao início</a>
+        </form>
+    </section>
+
+    <script>
+        function validarLogin() {
+            var email = document.getElementById('email').value;
+            var senha = document.getElementById('senha').value;
+
+            if (email.indexOf('@') === -1 || email.indexOf('.') === -1) {
+                alert('Email inválido!');
+            } else if (senha.length < 3) {
+                alert('Senha muito curta!');
+            } else {
+                alert('Login realizado com sucesso!');
+            }
+
+            event.preventDefault();
+        }
+    </script>
+</body>
+</html>
